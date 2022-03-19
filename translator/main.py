@@ -1,10 +1,11 @@
+# This project utilized Naver API in the field of translating words or sentences.
+
 import streamlit as st
 import urllib.request
 import json
 
 
 def main():
-    # Client information will not be disclosed to public.
     f = open("/home/eun/PycharmProjects/education_py/Translator/client_info", 'r')
     lines = f.readlines()
     client_id = lines[0].strip('\n')
