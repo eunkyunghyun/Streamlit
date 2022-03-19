@@ -4,6 +4,7 @@ import json
 
 
 def main():
+    # The client information will not be disclosed to public.
     f = open("/home/eun/PycharmProjects/education_py/Translator/client_info", 'r')
     lines = f.readlines()
     client_id = lines[0].strip('\n')
